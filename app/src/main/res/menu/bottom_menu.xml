@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Favorites"
+        android:title="Favorites"
+        android:icon="@drawable/baseline_star_border_24"/>
+
+    <item
+        android:id="@+id/Recents"
+        android:title="Recents"
+        android:icon="@drawable/baseline_access_time_filled_24"/>
+
+    <item
+        android:id="@+id/Keypad"
+        android:title=""
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/Contacts"
+        android:title="Contacts"
+        android:icon="@drawable/baseline_account_circle_24"
+        />
+
+    <item
+        android:id="@+id/Urgence"
+        android:title="Urgence"
+        android:icon="@drawable/baseline_voicemail_24"/>
+
+</menu>

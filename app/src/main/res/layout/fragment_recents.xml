@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".RecentsFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:text="Recents"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            />
+        <ImageView
+            android:id="@+id/logging"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/baseline_refresh_24"
+
+          />
+
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/searchView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shap4"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:queryHint="Search"
+        android:iconifiedByDefault="false"
+        android:searchIcon="@drawable/baseline_search_24"
+        >
+    </SearchView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_marginTop="135dp"
+
+        />
+
+</FrameLayout>

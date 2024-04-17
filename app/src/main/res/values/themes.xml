@@ -1,0 +1,128 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PhoneCall" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="searchIcon">@android:color/white</item>
+    </style>
+        <!-- Base application theme. -->
+        <style name="Base.Theme.PhoneCall2" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your light theme here. -->
+            <!-- colorPrimary -->
+            <item name="colorPrimary">@color/gris</item>
+            <item name="colorPrimaryVariant">@color/gris</item>
+            <item name="colorOnPrimary">@color/white</item>
+            <!-- colorSecondary -->
+            <item name="colorSecondary">@color/black</item>
+            <item name="colorSecondaryVariant">@color/black</item>
+            <item name="colorOnSecondary">@color/black</item>
+            <!--  -->
+            <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        </style>
+
+        <style name="button1">
+            <item name="android:layout_width">75dp</item>
+            <item name="android:layout_height">75dp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textSize">27dp</item>
+            <item name="android:gravity">center</item>
+            <item name="android:padding">10dp</item>
+            <item name="android:layout_margin">10dp</item>
+            <item name="android:background">@drawable/shap1</item>
+        </style>
+        <style name="button2">
+            <item name="android:layout_width">75dp</item>
+            <item name="android:layout_height">75dp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textSize">27dp</item>
+            <item name="android:gravity">center</item>
+            <item name="android:padding">10dp</item>
+            <item name="android:layout_margin">10dp</item>
+            <item name="android:textColor">"#FFFFFF"</item>
+            <item name="android:background">@drawable/shap2</item>
+        </style>
+    <style name="button3">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">27dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">"#FFFFFF"</item>
+        <item name="android:background">@drawable/shap3</item>
+    </style>
+    <style name="button4">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">27dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">25dp</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="button41">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">25dp</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="button5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">"#FFFFFF"</item>
+        <item name="android:backgroundTint">@color/gris</item>
+    </style>
+    <style name="button6">
+        <item name="android:textSize">18dp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">@color/blue</item>
+    <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="button7">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>®
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:textColor">"#FFFFFF"</item>
+        <item name="android:background">@drawable/shap2</item>
+    </style>
+    <style name="button8">
+        <item name="android:layout_marginLeft">11dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/shap4</item>
+    </style>
+    <style name="button9">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">"#FFFFFF"</item>
+        <item name="android:backgroundTint">@color/gris</item>
+    </style>
+
+</resources>
